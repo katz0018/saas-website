@@ -34,3 +34,8 @@ a:hover {
 .icon-fill {
   max-width: 100px;
 }
+
+.people-said {
+  background-color: #1d3557;
+  color: #fff;
+}
