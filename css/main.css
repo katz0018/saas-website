@@ -5,3 +5,28 @@ html {
 .card {
   border: solid 1px #000;
 }
+
+nav ul li a{
+  color: #000;
+  text-decoration: none;
+}
+
+.banner-content {
+  color: #fff;
+  width: 100%
+}
+
+.btn-new {
+  padding: 1em;
+  color: #000;
+  background-color: #a8dadc;
+  border: solid 4px #ed2024;
+}
+
+a:hover {
+  border-bottom: solid 4px #000;
+}
+
+.logo {
+  max-width: 128px;
+}
