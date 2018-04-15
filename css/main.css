@@ -6,9 +6,35 @@ html {
   border: solid 1px #000;
 }
 
-nav ul li a{
+nav ul li a {
   color: #000;
   text-decoration: none;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #1d3557;
 }
 
 .banner-content {
@@ -35,7 +61,20 @@ a:hover {
   max-width: 100px;
 }
 
+.placeholder {
+  max-width: 114px;
+}
+
 .people-said {
   background-color: #1d3557;
+  color: #fff;
+}
+
+.wrapper {
+  background-color: #1d3557;
+  color: #fff;
+}
+
+.wrapper a {
   color: #fff;
 }
