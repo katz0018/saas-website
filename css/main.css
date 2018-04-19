@@ -2,10 +2,6 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-.card {
-  border: solid 1px #000;
-}
-
 h1 {
   min-width: 114px;
 }
@@ -18,12 +14,20 @@ a {
   color: #fff;
 }
 
+h3 {
+  color: #fff;
+}
+
 .ask {
   color: #fff;
 }
 
 .box {
   background-color: #1d3557;
+}
+
+.logo-circle {
+  max-width: 60px;
 }
 
 nav ul li {
