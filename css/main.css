@@ -38,10 +38,6 @@ label {
   z-index: 3000;
 }
 
-header {
-  height: 50px;
-}
-
 .nav-nav {
   display: none;
 }
