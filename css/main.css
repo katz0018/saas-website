@@ -12,7 +12,18 @@ h1 {
 
 nav ul li a {
   color: #fff;
-  text-decoration: none;
+}
+
+a {
+  color: #fff;
+}
+
+.ask {
+  color: #fff;
+}
+
+.box {
+  background-color: #1d3557;
 }
 
 nav ul li {
@@ -37,10 +48,6 @@ nav ul li {
   visibility: hidden;
 }
 
-.nav-label {
-  cursor: pointer;
-}
-
 .nav-label img {
   display: block;
   width: 100%;
@@ -59,7 +66,8 @@ nav ul li {
 }
 
 li a:hover {
-  border-bottom: solid 4px #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .logo {
@@ -79,7 +87,7 @@ li a:hover {
   color: #fff;
 }
 
-.wrapper {
+.footer {
   background-color: #1d3557;
   color: #fff;
 }
