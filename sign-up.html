@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Saas-website</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+</head>
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header>
+    <div class="island-1-2 pin-lt">
+      <img class="logo img-flex" src="images/fast-money-logo.svg" alt="fast-money">
+    </div>
+  </header>
+
+  <section class="contact pad-t-2 pad-b-2 gutter-1-2">
+      <div class="max-length">
+        <h1 class="text-center not-bold giga">Sign-up</h1>
+        <h2 class="text-center not-bold kilo">Come try us out, you wont be disappointed</h2>
+
+        <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" required>
+          </div>
+          <div class="push">
+            <label for="email">Your email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
+          <div class="push">
+            <label for="subject">Plans</label>
+            <select id="subject" name="_subject">
+              <option>Free trial</option>
+              <option>Annual plan</option>
+            </select>
+          </div>
+          <div class="push">
+            <fieldset>
+              <legend class="not-bold push-1-4">Subscribe to daily emails</legend>
+              <div class="grid">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                  <div class="pad-b-1-2">
+                    <input id="yes" type="checkbox" name="subscribe">
+                    <label for="yes">yes</label>
+                  </div>
+                  <div class="pad-b-1-2">
+                    <input id="no" type="checkbox" name="subscribe">
+                    <label for="no">no</label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          <div class="text-center">
+            <a class="link-box btn btn-new" href="thank-you.html">Submit</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+  </html>

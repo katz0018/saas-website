@@ -11,15 +11,23 @@ h1 {
 }
 
 nav ul li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
-.nav {
+nav ul li {
+  background-color: #000;
+}
+
+.nav [type="checkbox"] + label::before {
+  top: -10em;
+}
+
+.nav-nav {
   display: none;
 }
 
-.nav-check:checked ~ .nav {
+.nav-check:checked ~ .nav-nav {
   display: block;
 }
 
@@ -38,10 +46,6 @@ nav ul li a {
   width: 100%;
 }
 
-.nav-check:checked ~ .nav-label {
-  background-color: #1d3557;
-}
-
 .banner-content {
   color: #fff;
   width: 100%
@@ -54,16 +58,12 @@ nav ul li a {
   border: solid 4px #ed2024;
 }
 
-a:hover {
-  border-bottom: solid 4px #000;
+li a:hover {
+  border-bottom: solid 4px #fff;
 }
 
 .logo {
   max-width: 128px;
-}
-
-.logo-2 {
-  bottom: 1em;
 }
 
 .icon-fill {
