@@ -24,6 +24,7 @@ h3 {
 
 .box {
   background-color: #1d3557;
+  border: solid 4px #fff;
 }
 
 .logo-circle {
@@ -107,4 +108,18 @@ li a:hover {
 
 .wrapper a {
   color: #fff;
+}
+
+.bg-tours {
+  background-image: url(../images/circle.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wings {
+  background-image: url(../images/wings.png);
+  background-position: center;
+  background-size: 360px;
+  background-repeat: no-repeat;
 }
