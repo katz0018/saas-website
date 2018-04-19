@@ -38,6 +38,11 @@ label {
   z-index: 3000;
 }
 
+.tour-p {
+  width: 40%;
+  display: inline-block;
+}
+
 .nav-nav {
   display: none;
 }
