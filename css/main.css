@@ -120,3 +120,31 @@ li a:hover {
 .App {
   background-color: #f2f2f2;
 }
+
+table {
+  min-width: 50em;
+}
+
+.mint {
+  width: 10em;
+}
+
+.harvest {
+  width: 10em;
+}
+
+.wallet {
+  width: 10em;
+}
+
+.slow {
+  width: 10em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
