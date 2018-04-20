@@ -117,9 +117,6 @@ li a:hover {
   background-repeat: no-repeat;
 }
 
-.wings {
-  background-image: url(../images/wings.png);
-  background-position: center;
-  background-size: 360px;
-  background-repeat: no-repeat;
+.App {
+  background-color: #f2f2f2;
 }
