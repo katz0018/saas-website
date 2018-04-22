@@ -15,13 +15,13 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
-  <header>
+  <header role="banner">
     <div>
       <div class="island-1-2">
         <img class="logo img-flex" src="images/fast-money-logo.svg" alt="fast-money">
       </div>
 
-      <nav class="unit nav xs-1 s-1 m-1 l-1">
+      <nav role="navigation" id="nav" tabindex="0" class="unit nav xs-1 s-1 m-1 l-1">
         <input type="checkbox" class="nav-check" id="nav-check">
         <label class="pin-rt pad-t-1-2 gutter-1-4" for="nav-check">
           <img src="images/hamburger.png" alt="open navigation">
@@ -36,7 +36,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <div class="text-center">
       <h1 class="giga push-0 pad-b-1-2">Pricing</h1>
       <h2 class="pad-t-1-2 kilo not-bold">Our plans:</h2>
@@ -74,8 +74,9 @@
         <div class="text-center push-2">
           <a class="link-box btn btn-new" href="thank-you.html">Submit</a>
         </div>
-      </section>
-    </main>
+      </form>
+    </section>
+  </main>
 
   <footer>
     <div class="footer relative island-2">
