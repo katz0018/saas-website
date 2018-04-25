@@ -111,7 +111,7 @@ li a:hover {
 }
 
 .bg-tours {
-  background-image: "url(../images/circle.png)";
+  background-image: url(../images/"circle.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
