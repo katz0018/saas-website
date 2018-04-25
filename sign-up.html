@@ -16,19 +16,35 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
   <header role="banner">
-    <div class="island-1-2 pin-lt">
-      <img class="logo img-flex" src="images/fast-money-logo.svg" alt="fast-money">
+    <div>
+      <div class="island-1-2">
+        <img class="logo img-flex" src="images/fast-money-logo.svg" alt="fast-money">
+      </div>
+
+      <nav role="navigation" id="nav" tabindex="0" class="unit nav xs-1 s-1 m-1 l-1">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="pin-rt pad-t-1-2 gutter-1-4" for="nav-check">
+          <img src="images/hamburger.png" alt="open navigation">
+        </label>
+        <ul class="nav-nav text-center list-group">
+          <li><a class="gutter-1-4 island-1-2 link-box" href="index.html">Home</a></li>
+          <li><a class="link-box gutter-1-4 island-1-2" href="f.a.q.html">F.A.Q</a></li>
+          <li><a class="link-box gutter-1-4 island-1-2" href="pricing.html">Pricing</a></li>
+          <li><a class="link-box gutter-1-4 island-1-2" href="tour.html">Tours</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main>
+  <main role="main">
     <section class="pad-t-2 pad-b-2 gutter-1-2">
       <div class="max-length">
-        <h1 class="text-center wings not-bold giga">Sign-up</h1>
+        <h1 class="text-center not-bold giga">Sign-up</h1>
+        <h2 class="text-center push-2 not-bold mega">We garentee you will not be dissapointed</h2>
       </div>
       <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
         <fieldset>
-          <legend class="text-center not-bold kilo">Come try us out, you wont be disappointed</legend>
+          <legend class="not-bold kilo">Come try us out, you wont be disappointed</legend>
           <div class="grid">
             <div class="unit xs-1 s-1 m-1 l-1">
               <div class="push">
@@ -67,7 +83,7 @@
           </div>
         </fieldset>
         <div class="text-center">
-          <a class="link-box btn btn-new" href="thank-you.html">Submit</a>
+          <button class="btn" type="submit">Submit</button>
         </div>
       </form>
     </section>
