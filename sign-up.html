@@ -57,7 +57,7 @@
               </div>
               <div class="push">
                 <label for="subject">Plans</label>
-                <select id="subject" name="_subject">
+                <select id="subject" name="_subject" required>
                   <option>Free trial</option>
                   <option>Annual plan</option>
                 </select>
@@ -68,13 +68,16 @@
         <fieldset>
           <legend class="not-bold push-1-4">Subscribe to daily emails</legend>
           <div class="grid max-length">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-b-1-2">
-              <input id="yes" type="checkbox" name="subscribe">
-              <label for="yes">yes</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-b-1-2">
-              <input id="no" type="checkbox" name="subscribe">
-              <label for="no">no</label>
+            <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+              <fieldset>
+                <legend class="bold giga">Do you have up-to-date first-aid certification?</legend>
+                <div>
+                  <input type="radio" id="yes-2" name="first-aid">
+                  <label for="yes-2">Yes</label>
+                  <input type="radio" id="no-1" name="first-aid">
+                  <label for="no-1">No</label>
+                </div>
+              </fieldset>
             </div>
           </div>
           <div class="pad-b-1-2 pad-t-1-2">
