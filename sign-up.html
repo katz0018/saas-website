@@ -26,8 +26,10 @@
       <div class="max-length">
         <h1 class="text-center wings not-bold giga">Sign-up</h1>
         <h2 class="text-center not-bold kilo">Come try us out, you wont be disappointed</h2>
+      </div>
 
-        <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+      <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+        <fieldset>
           <div class="push">
             <label for="name">Name</label>
             <input id="name" required>
@@ -43,26 +45,28 @@
               <option>Annual plan</option>
             </select>
           </div>
-          <div class="push">
-            <fieldset>
-              <legend class="not-bold push-1-4">Subscribe to daily emails</legend>
-              <div class="grid">
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <div class="pad-b-1-2">
-                    <input id="yes" type="checkbox" name="subscribe">
-                    <label for="yes">yes</label>
-                  </div>
-                  <div class="pad-b-1-2">
-                    <input id="no" type="checkbox" name="subscribe">
-                    <label for="no">no</label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-          <div class="text-center">
-            <a class="link-box btn btn-new" href="thank-you.html">Submit</a>
+        </fieldset>
+        <fieldset>
+          <legend class="not-bold push-1-4">Subscribe to daily emails</legend>
+          <div class="pad-b-1-2">
+            <input id="yes" type="checkbox" name="subscribe">
+            <label for="yes">yes</label>
           </div>
-        </form>
+          <div class="pad-b-1-2">
+            <input id="no" type="checkbox" name="subscribe">
+            <label for="no">no</label>
+          </div>
+
+          <div class="pad-b-1-2 pad-t-1-2">
+            <label class="pad-b-1-2 giga bold" for="message">Please let us know any comments or questions you may have.<span> (optional.)</span></label>
+            <textarea id="message"></textarea>
+          </div>
+        </fieldset>
+
+        <div class="text-center">
+          <a class="link-box btn btn-new" href="thank-you.html">Submit</a>
+        </div>
+      </form>
     </section>
   </main>
 </body>
