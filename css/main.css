@@ -24,6 +24,7 @@ a {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  color: #fff;
 }
 
 .ask {
@@ -34,10 +35,6 @@ a {
   width: 120px;
   margin: 0 auto;
   display: block;
-}
-
-.st0 {
-  fill:#ED2024;
 }
 
 .box {
@@ -56,11 +53,6 @@ nav ul li {
 .tour-p {
   width: 40%;
   display: inline-block;
-}
-
-.banner-content {
-  color: #fff;
-  width: 100%;
 }
 
 .btn-new {
