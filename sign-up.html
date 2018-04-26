@@ -22,11 +22,7 @@
       </div>
 
       <nav role="navigation" id="nav" tabindex="0" class="unit nav xs-1 s-1 m-1 l-1">
-        <input type="checkbox" class="nav-check" id="nav-check">
-        <label class="pin-rt pad-t-1-2 gutter-1-4" for="nav-check">
-          <img src="images/hamburger.png" alt="open navigation">
-        </label>
-        <ul class="nav-nav text-center list-group">
+        <ul class="text-center push-0 list-group">
           <li><a class="gutter-1-4 island-1-2 link-box" href="index.html">Home</a></li>
           <li><a class="link-box gutter-1-4 island-1-2" href="f.a.q.html">F.A.Q</a></li>
           <li><a class="link-box gutter-1-4 island-1-2" href="pricing.html">Pricing</a></li>
@@ -37,12 +33,16 @@
   </header>
 
   <main role="main">
-    <section class="pad-t-2 pad-b-2 gutter-1-2">
-      <div class="max-length">
-        <h1 class="text-center not-bold giga">Sign-up</h1>
-        <h2 class="text-center push-2 not-bold mega">We garentee you will not be dissapointed</h2>
+    <section class="pad-b-2">
+      <div class="relative push-2">
+        <img class="img-flex" src="images/overview.png" alt="overview">
+        <div class="banner-content max-length gutter-1-2 text-center absolute pin-c">
+          <h1 class="giga push-1-2">Only a form away from living.</h1>
+          <p class="kilo push-1-2 not-bold">Try us out , follow our steps and watch how you start making your dream income.</p>
+          <a class="link-box btn btn-new" href="sign-up.html">sign-up</a>
+        </div>
       </div>
-      <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+      <form class="gutter-1-2 push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
         <fieldset>
           <legend class="not-bold kilo">Come try us out, you wont be disappointed</legend>
           <div class="grid">
@@ -57,7 +57,7 @@
               </div>
               <div class="push">
                 <label for="subject">Plans</label>
-                <select id="subject" name="_subject" required>
+                <select id="subject" name="subject" required>
                   <option>Free trial</option>
                   <option>Annual plan</option>
                 </select>
@@ -67,18 +67,13 @@
         </fieldset>
         <fieldset>
           <legend class="not-bold push-1-4">Subscribe to daily emails</legend>
-          <div class="grid max-length">
-            <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
-              <fieldset>
-                <legend class="bold giga">Do you have up-to-date first-aid certification?</legend>
-                <div>
-                  <input type="radio" id="yes-2" name="first-aid">
-                  <label for="yes-2">Yes</label>
-                  <input type="radio" id="no-1" name="first-aid">
-                  <label for="no-1">No</label>
-                </div>
-              </fieldset>
-            </div>
+          <div>
+            <input type="radio" id="yes-2" name="first-aid">
+            <label for="yes-2">Yes</label>
+            <input type="radio" id="no-1" name="first-aid">
+            <label for="no-1">No</label>
+          </div>
+        </fieldset>
           </div>
           <div class="pad-b-1-2 pad-t-1-2">
             <label class="pad-b-1-2" for="message">Please let us know any comments or questions you may have.<span class="italic"> (optional.)</span></label>
@@ -86,7 +81,7 @@
           </div>
         </fieldset>
         <div class="text-center">
-          <button class="btn" type="submit">Submit</button>
+          <button class="btn btn-new" type="submit">Submit</button>
         </div>
       </form>
     </section>
