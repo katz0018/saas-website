@@ -18,6 +18,14 @@ h3 {
   color: #fff;
 }
 
+.banner-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
 .ask {
   color: #fff;
 }
@@ -26,6 +34,10 @@ h3 {
   width: 120px;
   margin: 0 auto;
   display: block;
+}
+
+.st0 {
+  fill:#ED2024;
 }
 
 .box {
