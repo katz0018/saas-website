@@ -10,6 +10,10 @@ nav ul li a {
   color: #fff;
 }
 
+nav:focus {
+  outline: solid 1px #000;
+}
+
 a {
   color: #fff;
 }
@@ -108,13 +112,6 @@ li a:hover {
 
 .wrapper a {
   color: #fff;
-}
-
-.bg-tours {
-  background-image: url("../images/circle.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .app, .contact {
