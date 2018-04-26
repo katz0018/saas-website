@@ -35,36 +35,9 @@ nav ul li {
   background-color: #000;
 }
 
-.nav [type="checkbox"] + label::before {
-  top: -10em;
-}
-
-label {
-  z-index: 3000;
-}
-
 .tour-p {
   width: 40%;
   display: inline-block;
-}
-
-.nav-nav {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-nav {
-  display: block;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-  visibility: hidden;
-}
-
-.nav-label img {
-  display: block;
-  width: 100%;
 }
 
 .banner-content {
