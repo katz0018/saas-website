@@ -22,6 +22,12 @@ h3 {
   color: #fff;
 }
 
+.logo-footer {
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
 .box {
   background-color: #1d3557;
   border: solid 4px #fff;
